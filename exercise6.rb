@@ -1,8 +1,6 @@
 # Grocery List 
 
-puts "My Grocery List:"
-
-grocery_list = ["apples", "bananas", "carrots", "potatoes"]
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 # List out grocery items with "*" in front of each item
 # grocery_list.each do |list_n|
@@ -22,7 +20,6 @@ def list_groceries(list)
 		puts "* #{item}"
 	end	
 end
- list_groceries(grocery_list)
 
 # Count number of items on grocery list 
 
@@ -38,4 +35,18 @@ end
 
 # Second item on the list 
 
-puts grocery_list[1]
+puts "Second item on list: #{grocery_list[1]}"
+
+# Alphabetical order
+
+list_groceries(grocery_list.sort)
+
+# Delete salmon, and redisplay it 
+
+grocery_list.delete("salmon")
+
+list_groceries(grocery_list)
+
+grocery_list << "salmon"
+
+list_groceries(grocery_list)
