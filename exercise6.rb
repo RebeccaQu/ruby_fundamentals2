@@ -47,6 +47,7 @@ grocery_list.delete("salmon")
 
 list_groceries(grocery_list)
 
-grocery_list << "salmon"
+# grocery_list << "salmon"
+grocery_list.insert(3, "salmon")
 
 list_groceries(grocery_list)
