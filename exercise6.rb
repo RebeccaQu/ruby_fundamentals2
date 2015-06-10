@@ -35,3 +35,7 @@ if grocery_list.include?("bananas")
 else
 	puts "You need to buy bananas"
 end
+
+# Second item on the list 
+
+puts grocery_list[1]
