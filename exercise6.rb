@@ -28,3 +28,10 @@ end
 
 puts "Number of items: #{grocery_list.count}" 
 
+# Checking for "Bananas"
+
+if grocery_list.include?("bananas") 
+	puts "You don't need to buy bananas"
+else
+	puts "You need to buy bananas"
+end
