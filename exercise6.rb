@@ -24,4 +24,7 @@ def list_groceries(list)
 end
  list_groceries(grocery_list)
 
+# Count number of items on grocery list 
+
+puts "Number of items: #{grocery_list.count}" 
 
